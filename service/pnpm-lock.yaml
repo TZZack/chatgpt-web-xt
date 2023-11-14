@@ -1,9 +1,13 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@tzzack/chatgpt':
-    specifier: 1.0.2
-    version: 1.0.2
+    specifier: 1.0.3
+    version: 1.0.3
   axios:
     specifier: ^1.3.4
     version: 1.3.5
@@ -661,8 +665,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@tzzack/chatgpt@1.0.2:
-    resolution: {integrity: sha512-+LWtbcIWkRzGU2yWYcmAzcmFqXYN18oMFf59EGoxG8wRQAMnZ08zkIXQZ1mzKprj37ghiQrySXLb1nqt+yU+cw==}
+  /@tzzack/chatgpt@1.0.3:
+    resolution: {integrity: sha512-+thX+U85U4O9qn4bFkkzwotz1P7Qqc0OraKj+cYrYmcYIYZDJ5qQYbCf3QeqnoKjKxDkRGBSa9AJXwAXmjYoPg==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:

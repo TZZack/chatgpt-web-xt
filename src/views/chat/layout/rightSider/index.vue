@@ -60,7 +60,7 @@ onMounted(async () => {
   // 后续再根据openai更新即可
   const filterModelIds = [
     // v1/chat/completions
-    'gpt-4', 'gpt-4-0613', 'gpt-4-32k', 'gpt-4-32k-0613',
+    'gpt-4', 'gpt-4-0613', 'gpt-4-32k', 'gpt-4-32k-0613', 'gpt-4-vision-preview', 'gpt-4-1106-preview',
     'gpt-3.5-turbo', 'gpt-3.5-turbo-0613', 'gpt-3.5-turbo-16k', 'gpt-3.5-turbo-16k-0613',
     // v1/completions
     'text-davinci-003', 'text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001',
